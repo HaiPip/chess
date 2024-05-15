@@ -1,0 +1,36 @@
+----- 05/15/24 13:53:51 -----
+Traceback (most recent call last):
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/gui.py", line 169, in play_as
+    game = make_AI_move(game, color)
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/gui.py", line 143, in make_AI_move
+    new_game = chess.make_move(game, chess.get_AI_move(game, AI_SEARCH_DEPTH))
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/chess.py", line 1316, in get_AI_move
+    if find_in_book(game):
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/chess.py", line 1402, in find_in_book
+    book_file = open("book.txt")
+FileNotFoundError: [Errno 2] No such file or directory: 'book.txt'
+
+Playing as WHITE:
+	e2e4
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+	rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+-----------------------------
+
+----- 05/15/24 13:54:14 -----
+Traceback (most recent call last):
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/gui.py", line 169, in play_as
+    game = make_AI_move(game, color)
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/gui.py", line 143, in make_AI_move
+    new_game = chess.make_move(game, chess.get_AI_move(game, AI_SEARCH_DEPTH))
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/chess.py", line 1316, in get_AI_move
+    if find_in_book(game):
+  File "/Users/vutrangnhung/Downloads/Chess Game using Python/chess.py", line 1402, in find_in_book
+    book_file = open("book.txt")
+FileNotFoundError: [Errno 2] No such file or directory: 'book.txt'
+
+Playing as WHITE:
+	d2d4
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+	rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1
+-----------------------------
+
